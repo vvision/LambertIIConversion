@@ -11,17 +11,17 @@ Requirements
 Installation
 ============
 
-Once node is installed, in the directory of the project, just run `npm install` to retrieve libraries used such as node-proj4js.
-Next step, just copy and paste the file *EPSG27572.js* in `node_modules/proj4js/lib/defs` to enable conversion from or to Lambert II.
-Since the node_modules directory is provided, the two steps above shouldn't be necessary.
-Finally, just run the program with `node conversion.js`.
-The program will output all data in file named *newCoord.csv*.
-This file should be initialized with *"c";"name";"l";"lat";"lon";"X";"Y";"s"*.
-You can see an example of a proper initialized file in newCoord_example.csv.
+* Run `npm install` to retrieve libraries used such as node-proj4js.
+* Move the file **EPSG27572.js** in `node_modules/proj4js/lib/defs` to enable conversion from or to Lambert II.
+* Since the node_modules directory is provided, the two steps above shouldn't be necessary.
+* Run the program with `node conversion.js`.
 
 Output
 ======
-New csv with two more fields: Latitude and Longitude.
+The program will output all data in a file named **newCoord.csv**.
+This file should be initialized with **"c";"name";"l";"lat";"lon";"X";"Y";"s"**.
+You can see an example of a proper initialized file in newCoord_example.csv.
+The generated csv will have two more fields: Latitude and Longitude.
 You can find an already generated file named *newCoord_complete.csv*.
 
 License
