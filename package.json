@@ -1,0 +1,14 @@
+{
+  "name": "LambertIIConversion",               
+  "version": "0.1.1",
+  "author": "vvision <vvision@sfr.fr>",
+  "description": "LambertIIConversion is a quick example of geographical conversion with Proj4Js using NodeJs. It converts the position of an antenna (x and y fields in siteCoord.csv) from the Lambert II coordinates system into Latitude/Longitude.",
+  "license": "GNU GPL3",                           
+  "engine": {                               
+    "node": "&gt;=0.4"
+  },        
+  "dependencies" : {                      
+    "proj4js" : "",
+    "lazy": ""
+  }
+}
